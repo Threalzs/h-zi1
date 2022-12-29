@@ -1,31 +1,46 @@
-#table2{
-    
-    border: 10px dotted  ;
-    float: left;
-    border-spacing: 10px;
-}
-#table1{
-    border: 10px dotted ;
-    float: right;
-    border-spacing: 10px;
+table{
+    border: 8px dotted mediumseagreen;
 }
 #tdsp {
 background-color: mediumseagreen;
 box-shadow: 5px;
 }
-#td {
+td {
  background-color: yellow;
  box-shadow: 5px;
  height: 30px;
  width: 45px;
+ border-radius: 5px;
+ text-align: center;
 }
-#body {
-    background-color: blanchedalmond;
+body {
+    background-color: rgba(255, 255, 255, 0.971);
 }
-#c {
+ #c{
     background-color: mediumseagreen;
     border: 0ch mediumseagreen;
     box-shadow: 5px;
     height: 30px;
     width: 90px;
+}
+
+  #table1{
+    float:left;
+    margin-left: 34%;
+    margin-top: 10%;
+    border-spacing: 10px;
+    text-decoration-style: wavy;
+    width: 15%;
+    height: 25%;
+   
+    
+}
+
+ #table2{
+    margin-right: 34%;
+    margin-top: 10%;
+    float:right;
+    border-spacing: 10px;
+    width: 15%;
+    height: 25%;
 }
