@@ -5,21 +5,22 @@ table{
 background-color: mediumseagreen;
 box-shadow: 5px;
 }
-td {
+td{
  background-color: yellow;
- box-shadow: 5px;
+ box-shadow: 2px 4px 2px black;
  height: 30px;
  width: 45px;
- border-radius: 5px;
+ border-radius: 5px ;
  text-align: center;
+ border: 10px black;
 }
 body {
     background-color: rgba(255, 255, 255, 0.971);
 }
- #c{
+ #co{
     background-color: mediumseagreen;
-    border: 0ch mediumseagreen;
-    box-shadow: 5px;
+    border: 5px mediumseagreen;
+    box-shadow: 5px black;
     height: 30px;
     width: 90px;
 }
